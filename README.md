@@ -16,13 +16,16 @@ in the project root directory. The jars in the folder ./lib will be fresh.
 2. How to use gibbslda
 There is a script called gibbslda in the project root folder. In the linux terminal,
 type the following cmd and you will the useage infomation of gibbslda.
+    
 ./gibbslda
 
 gibbslda -est [-ntopics <int>] [-alpha <float>] [-beta <float>] 
-              [-niters <int>] [-file <string>]
+    [-niters <int>] [-file <string>]
+
 gibbslda -inf [-niters <int>] [-model <string>] [-file <string>]
 
 "gibbslda -est ..." is used to estimate parameters on a train data.
+
 "gibbslda -inf ..." is used to infer parameters on a new unseen data based the 
 result of a train data.
 
@@ -36,7 +39,7 @@ Parameters:
 -file           indicate the data file for est/inf.
 -model          indicate the trained model (folder) for inference of unseen data.
 
-3.Input Data Format
+3. Input Data Format
 Both data for training/estimating the model and new data (i.e., previously 
 unseen data) have the same format as follows:
 
