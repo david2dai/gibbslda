@@ -1,0 +1,6 @@
+topics=50
+words=17612
+documents=10000
+alpha=1.0
+beta=0.1
+iter=1000

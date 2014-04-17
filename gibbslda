@@ -1,0 +1,8 @@
+#!/bin/bash
+
+base_dir=$(dirname $0)
+
+CP=$base_dir/lib/*:$CLASSPATH
+JAVA_CMD="java -classpath $CP  com.david.gibbslda.Start"
+
+$JAVA_CMD $*
