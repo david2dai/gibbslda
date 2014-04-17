@@ -4,8 +4,6 @@ gibbslda
 This is a java version of gibbs lda implement by David2 Dai.
 You can use or modify it as you wish.
 
-Tips:
-
 1. Compile the project 
 The jar files are already included in the lib folder, so you can use them 
 without recompile. 
