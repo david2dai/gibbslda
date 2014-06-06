@@ -113,6 +113,8 @@ class Model {
                 NM [docId] += docSize;
                 ++ docId;
             }
+
+            reader.close ();
         } catch (IOException e) {
 
         }
