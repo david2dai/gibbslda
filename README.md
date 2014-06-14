@@ -17,28 +17,27 @@ terminal, you can type the following cmd to use it.
 
 #### Usage
 ##### Estimate parameters on a train data
-> gibbslda -est [-ntopics <int>] [-alpha <float>] [-beta <float>] 
-		        [-niters <int>] [-file <string>]
+> gibbslda -est [-ntopics \<int\>] [-alpha \<float\>] [-beta \<float\>] [-niters \<int\>] [-file \<string\>]
 
 ##### Infer parameters on a unseen data based on the result of a train data.
-> gibbslda -inf [-niters <int>] [-model <string>] [-file <string>]
+> gibbslda -inf [-niters \<int\>] [-model \<string\>] [-file \<string\>]
 
 #### Parameters
-> -est            do estimate/train for a data file.
+> -est: do estimate/train for a data file.
 
-> -inf            do inference for a new unseen data file.
+> -inf: do inference for a new unseen data file.
 
-> -ntopics        indicate the topics number.
+> -ntopics: indicate the topics number.
 
-> -niters         indicate the iterate times.
+> -niters: indicate the iterate times.
 
-> -alpha          hyper-parameter alpha.
+> -alpha: hyper-parameter alpha.
 
-> -beta           hyper-parameter beta.
+> -beta: hyper-parameter beta.
 
-> -file           indicate the data file for est/inf.
+> -file: indicate the data file for est/inf.
 
-> -model          indicate the trained model for the inference of unseen data.
+> -model: indicate the trained model for the inference of unseen data.
 
 ### 3. Input Data Format
 Both data for training/estimating the model and new data (i.e., previously 
